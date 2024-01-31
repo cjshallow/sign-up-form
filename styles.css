@@ -1,0 +1,15 @@
+.container {
+    border: 1px solid black;
+}
+
+.main-heading {
+    border: 1px solid red;
+}
+
+.sign-up-form {
+    border: 1px solid green;
+}
+
+.submit-footer {
+    border: 1px solid orange;
+}
