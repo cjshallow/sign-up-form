@@ -63,8 +63,14 @@ body {
 .sign-up-form {
     height: 50vh;
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .submit-footer {
-    border: 1px solid orange;
+    font-size: small;
+}
+
+input:focus {
+    border: 1px solid blue;
 }
