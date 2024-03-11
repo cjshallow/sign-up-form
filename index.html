@@ -29,19 +29,19 @@
                 <form>
                     <div class="fields">
                         <label for="firstname">First Name:</label>
-                        <input type="text" id="first-name" name="first_name" />
+                        <input type="text" id="first-name" name="first_name" required/>
                         <br />
                         <br />
                         <label for="mail">E-mail:</label>
-                        <input type="email" id="mail" name="user_mail" />
+                        <input type="email" id="mail" name="user_mail" required />
                         <br />
                         <br />
                         <label for="password">Password:</label>
-                        <input type="password" id="pwd" name="password" />
+                        <input type="password" id="pwd" name="password" required />
                     </div>
                     <div class="fields">
                         <label for="firstname">Last Name:</label>
-                        <input type="text" id="last-name" name="last_name" />
+                        <input type="text" id="last-name" name="last_name" required/>
                         <br />
                         <br />
                         <label for="number">Phone Number:</label>
@@ -49,14 +49,14 @@
                         <br />
                         <br />
                         <label for="confirm_password">Confirm Password:</label>
-                        <input type="password" id="pwd_confirm" name="password_confirm">
+                        <input type="password" id="pwd_confirm" name="password_confirm" required>
                     </div>
                 </form>
-            </div>
-            <div class="submit-footer">
-                <button>Submit</button>
-                <br />
-                Already Have an Account? Log in.<!--Link here-->
+                <div class="submit-footer">
+                    <button type="submit">Create Account</button>
+                    <br />
+                    Already Have an Account? <a href="www.google.com">Log In.</a>
+                </div>
             </div>
         </div>
         </div>
